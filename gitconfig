@@ -1,0 +1,15 @@
+[user]
+	name = neillin
+	email =
+[core]
+	editor = vim
+	abbrev = 12
+[difftool]
+	prompt = false
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[grep]
+	extendedRegexp = true

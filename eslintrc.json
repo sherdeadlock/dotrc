@@ -1,0 +1,86 @@
+{
+    "env": {
+        "browser": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+    "rules": {
+        "no-undef": "warn",
+        "no-redeclare": "warn",
+        "no-unused-vars": ["warn", { "vars": "all", "args": "none", "ignoreRestSiblings": false }],
+        "no-delete-var": "error",
+        "no-shadow": "warn",
+        "no-shadow-restricted-names": "error",
+        "no-undef-init": "warn",
+        "no-undefined": "warn",
+        "no-inner-declarations": "warn",
+        "no-func-assign": "error",
+        "no-dupe-args": "error",
+        "no-dupe-keys": "warn",
+        "no-empty-pattern": "error",
+        "no-global-assign": "error",
+        "no-self-assign": "error",
+        "no-param-reassign": "warn",
+        "no-use-before-define": "warn",
+
+        "no-constant-condition": "warn",
+        "no-cond-assign": "warn",
+        "no-empty": "warn",
+        "no-unmodified-loop-condition": "warn",
+        "no-unsafe-finally": "error",
+        "no-unreachable": "error",
+        "no-extra-boolean-cast": "error",
+        "no-ex-assign": "error",
+        "for-direction": "error",
+        "no-extra-parens": "warn",
+        "no-useless-return": "warn",
+        "no-throw-literal": "warn",
+        "no-return-await": "warn",
+        "no-self-compare": "error",
+
+        "no-duplicate-case": "error",
+        "no-fallthrough": "warn",
+        "default-case": "warn",
+        "no-useless-escape": "warn",
+
+        "no-regex-spaces": "error",
+        "no-invalid-regexp": "error",
+        "no-empty-character-class": "error",
+        "no-control-regex": "error",
+
+        "use-isnan": "error",
+        "no-octal": "error",
+        "radix": "warn",
+
+        "semi": "warn",
+        "no-extra-semi": "warn",
+        "no-console": "warn",
+        "no-debugger": "error",
+        "no-irregular-whitespace": "error",
+        "no-warning-comments": "warn",
+
+        "no-sequences": "error",
+        "no-script-url": "error",
+        "no-useless-concat": "warn",
+        "no-useless-call": "warn",
+        "no-unused-expressions": "warn",
+        "prefer-promise-reject-errors": "warn",
+        "wrap-iife": "warn",
+        "no-void": "error",
+        "no-unexpected-multiline": "error",
+        "no-prototype-builtins": "warn",
+        "no-obj-calls": "error",
+        "getter-return": "error",
+        "no-sparse-arrays": "error",
+        "valid-typeof": "error",
+        "no-unsafe-negation": "error",
+        "eol-last": "error"
+    },
+    "globals": {
+        "assert": true,
+        "Promise": true,
+        "d3": true
+    }
+}
