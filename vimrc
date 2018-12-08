@@ -13,15 +13,24 @@ Plug 'tpope/vim-fugitive'
 Plug 'SirVer/ultisnips'
 Plug 'btrie/vim-snippets'
 Plug 'w0rp/ale'
+Plug 'btrie/vim-js'
+" Plug 'pangloss/vim-javascript'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 " Plug 'btrie/gtags.vim'
 Plug 'btrie/vim-man'
 Plug 'btrie/vim-sensible'
+Plug '~/.fzf'
+Plug 'junegunn/fzf.vim'
 " Plug 'editorconfig/editorconfig-vim'
 
 " Initialize plugin system
 call plug#end()
 
+let g:ale_sign_column_always = 1
+let g:ale_linters_explicit = 1
 let g:ale_javascript_eslint_use_global = 1
-let g:ale_linters = {'javascript': ['eslint']}
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\   'python': ['pycodestyle'],
+\}

@@ -13,3 +13,6 @@
 	conflictstyle = diff3
 [grep]
 	extendedRegexp = true
+[alias]
+    co = checkout
+    cp = cherry-pick
