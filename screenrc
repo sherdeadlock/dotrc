@@ -18,3 +18,8 @@ bindkey ^[[1;2D prev
 bindkey ^[[1;2C next
 
 vbell off
+
+# mouse scroll
+# https://stackoverflow.com/questions/359109/using-the-scrollwheel-in-gnu-screen
+termcapinfo xterm* ti@:te@ vb=:
+
