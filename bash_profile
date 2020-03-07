@@ -18,5 +18,6 @@ export MANWIDTH=78
 export TERM=xterm-256color
 # Get color support for 'less'
 export LESS="--RAW-CONTROL-CHARS"
-
+# |- is to instruct less to use the preprocessor as a pipe: redirect standard input to it and read standard ouput from it.
+export LESSOPEN="|- olivetti %s"
 
